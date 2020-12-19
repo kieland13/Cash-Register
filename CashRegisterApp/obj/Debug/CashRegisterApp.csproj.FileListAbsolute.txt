@@ -1,0 +1,15 @@
+C:\Users\nkiel\source\repos\CashRegisterApp\CashRegisterApp\bin\Debug\CashRegisterApp.exe.config
+C:\Users\nkiel\source\repos\CashRegisterApp\CashRegisterApp\bin\Debug\CashRegisterApp.exe
+C:\Users\nkiel\source\repos\CashRegisterApp\CashRegisterApp\bin\Debug\CashRegisterApp.pdb
+C:\Users\nkiel\source\repos\CashRegisterApp\CashRegisterApp\obj\Debug\CashRegisterApp.csprojAssemblyReference.cache
+C:\Users\nkiel\source\repos\CashRegisterApp\CashRegisterApp\obj\Debug\MainWindow.g.cs
+C:\Users\nkiel\source\repos\CashRegisterApp\CashRegisterApp\obj\Debug\App.g.cs
+C:\Users\nkiel\source\repos\CashRegisterApp\CashRegisterApp\obj\Debug\CashRegisterApp_MarkupCompile.cache
+C:\Users\nkiel\source\repos\CashRegisterApp\CashRegisterApp\obj\Debug\CashRegisterApp_MarkupCompile.lref
+C:\Users\nkiel\source\repos\CashRegisterApp\CashRegisterApp\obj\Debug\MainWindow.baml
+C:\Users\nkiel\source\repos\CashRegisterApp\CashRegisterApp\obj\Debug\CashRegisterApp.g.resources
+C:\Users\nkiel\source\repos\CashRegisterApp\CashRegisterApp\obj\Debug\CashRegisterApp.Properties.Resources.resources
+C:\Users\nkiel\source\repos\CashRegisterApp\CashRegisterApp\obj\Debug\CashRegisterApp.csproj.GenerateResource.cache
+C:\Users\nkiel\source\repos\CashRegisterApp\CashRegisterApp\obj\Debug\CashRegisterApp.csproj.CoreCompileInputs.cache
+C:\Users\nkiel\source\repos\CashRegisterApp\CashRegisterApp\obj\Debug\CashRegisterApp.exe
+C:\Users\nkiel\source\repos\CashRegisterApp\CashRegisterApp\obj\Debug\CashRegisterApp.pdb

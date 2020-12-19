@@ -1,0 +1,59 @@
+﻿<Window x:Name="Cash_register" x:Class="CashRegisterApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CashRegisterApp"
+        mc:Ignorable="d"
+        Title="Cash register" Height="360.863" Width="301">
+    <Window.Resources>
+        <Style x:Key="ButtonStyle" TargetType="Button">
+            <Setter Property="Button.Width" Value="20"/>
+            <Setter Property="Button.HorizontalAlignment" Value="Left" />
+            <Setter Property="Button.VerticalAlignment" Value="Top" />
+        </Style>
+
+        <Style x:Key="ButtonStyle2" TargetType="Button">
+            <Setter Property="Button.Width" Value="75"/>
+            <Setter Property="Button.HorizontalAlignment" Value="Left" />
+            <Setter Property="Button.VerticalAlignment" Value="Top" />
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="userEntryTextBox" Height="23" Margin="81,26,35,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-0.742,-1" IsReadOnly="True"/>
+        <Label Content="$" HorizontalAlignment="Left" Margin="65,26,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.711,-4.538" Height="23"/>
+        <Button Style="{StaticResource ButtonStyle}" x:Name="button1" Content="1" Margin="57,93,0,0" Click="Button_Click"/>
+        <Button Style="{StaticResource ButtonStyle}" x:Name="button2" Content="2" Margin="82,93,0,0" RenderTransformOrigin="-0.905,-3.9" Click="Button_Click"/>
+        <Button Style="{StaticResource ButtonStyle}" x:Name="button3" Content="3" Margin="107,93,0,0" Click="Button_Click"/>
+        <Button Style="{StaticResource ButtonStyle}" x:Name="button4" Content="4" Margin="57,118,0,0" Click="Button_Click"/>
+        <Button Style="{StaticResource ButtonStyle}" x:Name="button5" Content="5" Margin="82,118,0,0" Click="Button_Click"/>
+        <Button Style="{StaticResource ButtonStyle}" x:Name="button6" Content="6" Margin="107,118,0,0" Click="Button_Click"/>
+        <Button Style="{StaticResource ButtonStyle}" x:Name="button7" Content="7" Margin="57,143,0,0" Click="Button_Click"/>
+        <Button Style="{StaticResource ButtonStyle}" x:Name="button8" Content="8" Margin="82,143,0,0" Click="Button_Click"/>
+        <Button Style="{StaticResource ButtonStyle}" x:Name="button9" Content="9" Margin="107,143,0,0" Click="Button_Click"/>
+        <Button Style="{StaticResource ButtonStyle}" x:Name="button0" Content="0" Margin="82,168,0,0" Click="Button_Click"/>
+        <Button Style="{StaticResource ButtonStyle}" x:Name="button10" Content="." Margin="107,168,0,0"  Click="Button_Click"/>
+        <Button Style="{StaticResource ButtonStyle2}" x:Name="enterButton" Content="Enter/Add" Margin="183,93,0,0" Click="enterButton_Click"/>
+        <Button Style="{StaticResource ButtonStyle2}" x:Name="totalButton" Content="Total" Margin="183,118,0,0" Click="totalButton_Click"/>
+        <Button Style="{StaticResource ButtonStyle2}" x:Name="deleteButton" Content="Delete" Margin="183,143,0,0" Click="deleteButton_Click"/>
+        <Button Style="{StaticResource ButtonStyle2}" x:Name="clearButton" Content="Clear" Margin="183,168,0,0" Click="clearButton_Click"/>
+        <TextBox x:Name="subtotalTextBox" HorizontalAlignment="Left" Height="23" Margin="138,225,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsReadOnly="True"/>
+        <TextBox x:Name="taxTextBox" HorizontalAlignment="Left" Height="23" Margin="138,253,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsReadOnly="True"/>
+        <TextBox x:Name="totalTextBox" HorizontalAlignment="Left" Height="23" Margin="138,281,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsReadOnly="True"/>
+        <Label x:Name="subtotalLabel" Content="Subtotal:" HorizontalAlignment="Left" Margin="41,222,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="taxLabel" Content="Tax:" HorizontalAlignment="Left" Margin="41,253,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.456,1.192"/>
+        <Label x:Name="totalLabel" Content="Total:" HorizontalAlignment="Left" Margin="41,278,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="moneySignLabel1" Content="$" HorizontalAlignment="Left" Margin="122,222,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="moneySignLabel3" Content="$" HorizontalAlignment="Left" Margin="122,250,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="moneySignLabel2" Content="$" HorizontalAlignment="Left" Margin="122,278,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="clearAllButton" Content="Clear All" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="183,193,0,0" Click="clearAllButton_Click"/>
+
+    </Grid>
+</Window>
+
